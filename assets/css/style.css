@@ -1,0 +1,92 @@
+@font-face {
+    font-family: snig1;
+    src: url(../font/Sniglet/Sniglet-Regular.ttf);
+}
+
+@font-face {
+    font-family: open;
+    src: url(../font/open/OpenSans-Regular.ttf);
+}
+
+:root {
+    --bs-org: #e7470c;
+    --bs-blu: #25a6ff;
+    --bs-wht: #ffffff;
+    --bs-gre: #6ecd92;
+    --bs-pink: #ff589b;
+    --bs-soil: #fec637;
+    --bs-blck: #000000;
+    --bs-voil: #7756bf;
+}
+
+p {
+    margin: 0;
+}
+
+.open {
+    font-family: open;
+}
+
+.snig1 {
+    font-family: snig1;
+}
+
+.snig2 {
+    font-family: snig2;
+}
+
+.org {
+    color: var(--bs-org) !important;
+}
+
+.wht {
+    color: var(--bs-wht) !important;
+}
+
+.active {
+    color: var(--bs-org) !important;
+}
+
+.banner {
+    background: url(../images/banner.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content-aline {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.btn1 {
+    color: white;
+    font-family: snig1;
+    background: #6ecd92;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    padding: 13px 30px;
+    border-radius: 27px;
+}
+
+.btn2 {
+    color: black;
+    font-family: snig1;
+    background: white;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    padding: 13px 30px;
+    border-radius: 27px;
+}
+
+.btn1:hover {
+    background: var(--bs-org) !important;
+    transition: 0.7s;
+}
+
+.btn2:hover {
+    background: var(--bs-org) !important;
+    transition: 0.7s;
+    color: white;
+}
